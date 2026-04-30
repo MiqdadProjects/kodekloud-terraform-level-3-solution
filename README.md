@@ -7,13 +7,13 @@
 ![Infrastructure as Code](https://img.shields.io/badge/Infrastructure-as%20Code-blue?style=for-the-badge&logo=hashicorp&logoColor=white)
 ![MIT License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge)
-![Tasks Progress](https://img.shields.io/badge/Progress-7%2F7-brightgreen?style=for-the-badge)
+![Tasks Progress](https://img.shields.io/badge/Progress-10%2F10-brightgreen?style=for-the-badge)
 
 *Master Advanced Infrastructure Orchestration with Production-Ready Terraform Solutions*
 
 [![KodeKloud Platform](https://img.shields.io/badge/🔗_KodeKloud-Platform-orange?style=flat-square)](https://kodekloud.com) 
 [![Documentation](https://img.shields.io/badge/📚_Complete-Documentation-blue?style=flat-square)](#documentation) 
-[![Tasks Overview](https://img.shields.io/badge/🏗️_7_Tasks-Overview-green?style=flat-square)](#tasks-overview) 
+[![Tasks Overview](https://img.shields.io/badge/🏗️_10_Tasks-Overview-green?style=flat-square)](#tasks-overview) 
 [![Getting Started](https://img.shields.io/badge/🚀_Quick-Start-red?style=flat-square)](#getting-started)
 
 </div>
@@ -26,7 +26,7 @@ This repository provides **comprehensive, production-ready solutions** for the *
 
 **🎯 Mission**: Empower DevOps professionals to master the most complex Terraform scenarios, focusing on auditability, security-at-rest, and scalable dynamic infrastructure.
 
-**⏱️ Timeline**: All 7 tasks documented so far have been successfully completed.
+**⏱️ Timeline**: All 10 tasks documented so far have been successfully completed.
 
 ---
 
@@ -51,6 +51,7 @@ graph LR
 | **🔑 Foundation** | DynamoDB Seeding, Firehose Pipelines | 1-2 | ![2/2](https://geps.dev/progress/100?title=2/2) |
 | **🔐 Security** | IAM Governance, KMS Encryption, STS | 3-5 | ![3/3](https://geps.dev/progress/100?title=3/3) |
 | **🌩️ Advanced** | SSM SecureString, for_each, Lifecycle | 6-7 | ![2/2](https://geps.dev/progress/100?title=2/2) |
+| **🧩 Modules & Workspaces** | Reusable Modules, Sensitive Variables, Workspaces | 8-10 | ![3/3](https://geps.dev/progress/100?title=3/3) |
 
 ---
 
@@ -84,6 +85,17 @@ graph LR
 |---|-----------|--------|------------|-------------|
 | 6 | [**Multi-Tier Apps**](./task-06/task-06-terraform-multi-tier-infrastructure.md) | ✅ **Done** | 🟡 Inter. | Secure SSM config, SNS, and DynamoDB stacks |
 | 7 | [**Dynamic Storage**](./task-07/task-07-terraform-s3-for-each-lifecycle.md) | ✅ **Done** | 🔴 Adv. | Scalable S3 with `for_each` and lifecycle rules |
+
+</details>
+
+<details open>
+<summary><b>🧩 Modules & Advanced Concepts (Tasks 8-10)</b> - Click to expand</summary>
+
+| # | Task Name | Status | Complexity | Description |
+|---|-----------|--------|------------|-------------|
+| 8 | [**Static Site Module**](./task-08/task-08-terraform-s3-static-site-module.md) | ✅ **Done** | 🟡 Inter. | Building reusable modules for S3 website hosting |
+| 9 | [**Secrets Manager**](./task-09/task-09-terraform-secrets-manager.md) | ✅ **Done** | 🔴 Adv. | Handling sensitive variables and AWS Secrets |
+| 10 | [**Workspaces & API Gateway**](./task-10/task-10-terraform-api-gateway-workspaces.md) | ✅ **Done** | 🔴 Adv. | Using `count` and workspaces for multi-env APIs |
 
 </details>
 
@@ -171,13 +183,13 @@ terraform init && terraform plan && terraform apply
 ### 📈 Project Statistics
 
 ![GitHub stars](https://img.shields.io/github/stars/MiqdadProjects/kodekloud-terraform-level-3-solution?style=social)
-![GitHub Progress](https://geps.dev/progress/70?title=Complete)
+![GitHub Progress](https://geps.dev/progress/100?title=Complete)
 
 ### 🎯 Learning Impact
 
 | Metric | Current | Target | Status |
 |--------|---------|--------|---------|
-| **Tasks Completed** | 7/7 | 10/10 | ![70%](https://geps.dev/progress/70?title=70%) |
+| **Tasks Completed** | 10/10 | 10/10 | ![100%](https://geps.dev/progress/100?title=100%) |
 | **Complexity Level** | 🔴 Advanced | Advanced | ![Ready](https://img.shields.io/badge/Status-Cloud_Expert-red) |
 
 </div>
